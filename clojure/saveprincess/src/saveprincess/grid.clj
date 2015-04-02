@@ -7,10 +7,9 @@
    (- (* size size) 1)])
 
 (defn square-with-me-in-the-center [size]
-  (assoc
-    (vec (repeat (* size size) "-"))
-    (/ (- (* size size) 1) 2)
-    "m"))
+  (assoc (vec (repeat (* size size) "-"))
+         (/ (- (* size size) 1) 2)
+         "m"))
 
 (defn generate-grid
   ([size]
