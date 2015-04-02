@@ -10,7 +10,7 @@
         p-pos  (.indexOf grid "p")
         distance  (/ (- size 1) 2)]
     (concat (repeat distance (move :x (rem my-pos size) (rem p-pos size)))
-            (repeat distance (move :y (int (/ my-pos size)) (int (/ p-pos size)))))))
+            (repeat distance (move :y (quot my-pos size) (quot p-pos size))))))
 
 (defn -main []
   (let [size (read-string (read-line))
