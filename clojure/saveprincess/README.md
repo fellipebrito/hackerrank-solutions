@@ -1,32 +1,16 @@
 # saveprincess
 
-FIXME: description
+: description
 
-## Installation
+## See it live
 
-Download from http://example.com/FIXME.
+[Finally the bot saves the princess](https://www.hackerrank.com/showgame/5168490)
 
-## Usage
+## Run the tests
 
-FIXME: explanation
-
-    $ java -jar saveprincess-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+```
+lein test
+```
 
 ## License
 
